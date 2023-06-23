@@ -150,9 +150,27 @@ void main(){
 }
 ```
 
+# conditional expressions
 
-
-
+```
+void main(){
+  int a = 2;
+  int b = 3;
+  
+  int smallNumber = a < b ? a : b;
+  print("$smallNumber is smaller");
+  var name = null;
+  String nameToPrint = name ?? "Guest User";
+  print(nameToPrint);
+  
+  int aaaa = a > b ? a : b;
+  print("$aaaa is Good");
+  var name1 = null;
+  String nameToPrints = name1 ?? "Guest";
+  print(nameToPrints);
+  
+}
+```
 
 
 
