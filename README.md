@@ -171,8 +171,41 @@ void main(){
   
 }
 ```
+# Switch Case
 
-
+```
+void main(){
+  
+  String grade = 'k';
+ 
+  switch(grade){
+    case 'A' :
+      print('Excellent Babu');
+      break;
+      
+    case 'B':
+      print('Very Good !');
+      break;
+    
+    case 'C':
+      print('Good Work');
+      break;
+      
+    case 'D':
+      print('Failed');
+      
+    case 'E':
+      print('Chacha Vidayak Hai');
+      
+    case 'k':
+      print('Babua Kasa Hai');
+      
+    default : 
+      print('Hello Hi Devanshu');
+      
+  }
+}
+``` 
 
 
 
