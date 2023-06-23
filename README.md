@@ -66,3 +66,58 @@ void main(List<String> arguments){
 }
 
 ```
+# String Interpolation
+
+
+```
+void main(){
+  
+  var isCool = true;
+  int x = 2;
+  "JohnJohn";
+  4.5;
+  
+  String s1 = 'Single';
+  String s2 = 'Double';
+  String s4 = 'Delete';
+  String s7 = 'Privacy';
+  String s9 = 'dDddd';
+  String a = 'dsdsdsd';
+  
+  var v = 1;
+  var b = 2;
+  var c = 3;
+  var d = 4;
+  var e = 5;
+  
+  String s67 = 'Hi i am devanshu.'
+    'This is a plan'
+    'I am not you'
+    'You love me';
+  
+  print('My Name is $s1');
+  print('Hello is a toy $s7');
+  
+  print("$a+$b+$c+$d+$e");
+  print('Dream is You');
+  print('Math Math Math Math');
+  print('Energy');
+  print("$a * $b * $c * $d * $e");
+  
+  print(s1);
+  print(s2);
+  print(s4);
+  print(s67);
+  print(s7);
+  print("${s1} ${s2} ${s9} ${s7}");  
+  print("dkgdfkhdfd");
+  print("${s1}");
+  print("${s1} ${x}");  
+}
+```
+
+
+
+
+
+
