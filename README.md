@@ -116,6 +116,51 @@ void main(){
 }
 ```
 
+# if else
+
+```
+void main(){
+  var salary = 15000;
+  
+  if(salary > 20000000){
+    print("You Got Promotion");
+  }else{
+    print("Need To Work");
+  }
+  
+  var marks = 50;
+  
+  if(marks >= 90 && marks < 100){
+    print("A++ Grade");
+  } else if(marks >=80 && marks < 90){
+    print("A Grade");
+  }
+  else if(marks >=70 && marks < 80){
+    print("B Grade");
+  }
+  else if(marks >=60 && marks <60){
+    print("D Grade");
+  }
+ else if(marks >= 30 && marks < 60){
+   print("You Have Failed");
+ } 
+ else {
+  print("Invalid Marks. Please Try Again Later");  
+ } 
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
