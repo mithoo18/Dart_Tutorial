@@ -747,3 +747,40 @@ class Cat extends Animal {
 }
 ```
 
+# Method Overriding
+
+```
+void main(){
+  var dog = Dog();
+  dog.eat();
+  print(dog.color);
+ 
+}
+
+class Animal{
+  String color = "brown";
+  void eat(){
+    print("Animal is Eating....");
+  }
+}
+
+class Dog extends Animal {
+  String breed = "";
+  String color = "Black";
+  
+  void bark(){
+    print("Blank");
+  }
+  
+  void eat(){
+    print("Dog Eating");
+    super.eat();
+    print("More Food To Eat");
+  }
+  
+}
+```
+
+
+
+
