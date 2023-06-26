@@ -446,6 +446,27 @@ void color(String colorType) => print("$colorType");
 void line(String line) => print("$line");
 ```
 
+# Optional Positional Params
+
+```
+void main(){
+  
+  printme1("One","two","three");
+  print("");
+  printme2("Six");
+}
+
+void printme1(String v1,String v2,String v3){
+  print("Hi1 $v1 $v2 $v3");
+}
+
+void printme2(String t1,[String t2,String t3]){
+  print("Hi1 $t1");
+  print("Hi2 $t2");
+  print("Hi3 $t3");
+}
+```
+
 
 
 
