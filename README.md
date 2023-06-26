@@ -422,4 +422,30 @@ void hello(int times){
 }
 ```
 
+# Function Expression
+
+```
+void main(){
+  
+  findPerimeter(4,2);
+  line("------------");
+  hello(5);
+  line("------------");
+  color("blue");
+  line("------------");
+}
+
+void findPerimeter(int length,int breadth) => print("The perimeter is ${2 * (length + breadth)}");
+
+int getArea(int length, int breadth) => length*breadth;
+
+void hello(int times) => print("hello");
+
+void color(String colorType) => print("$colorType"); 
+
+void line(String line) => print("$line");
+```
+
+
+
 
