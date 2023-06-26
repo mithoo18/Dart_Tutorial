@@ -705,3 +705,45 @@ class Student{
 }
 
 ```
+
+# Getter and Setter
+
+```
+void main(){
+  var dog = Dog();
+  dog.breed = "Labra";
+  dog.color = "Black";
+  dog.bark();
+  dog.line();
+  dog.eat();
+  dog.line();
+}
+
+class Animal{
+  String color = "";
+  
+  void eat(){
+    print("Eat !");
+  }
+  
+  void line(){
+    print("-----------------------------");
+  }
+}
+
+class Dog extends Animal {
+  String breed = "";
+  
+  void bark(){
+    print("Bark");
+  }
+}
+
+class Cat extends Animal {
+  int age = 0;
+  void meow(){
+    print("Meow.........");
+  }
+}
+```
+
