@@ -227,7 +227,7 @@ void main(){
 
 ```
 
-# While Loop
+# While Loop 1
 
 ```
 void main(){
@@ -243,14 +243,50 @@ void main(){
 }
 ```
 
-# Do While Loop
+# While Loop 2
 
 ```
 
+void main(){
+  
+  var i = 1;
+  while(i<=10){
+    if(i%2==0){
+      print(i);
+    }
+    i++;
+  }
+  
+print("----------------------");
+  
+  
+  var j =0;
+  while(j<100){
+    if(j%10==0){
+      print(j);
+    }
+    j++;
+  }
+  
+print("----------------------");
 
-
-
-
-
-
+  var t = 9;
+  while(t<90){
+    if(t%100==0){
+      print(t);
+    }
+    t++;
+  }
+  
+print("----------------------");
+  
+  var g = 3;
+  while(g>0){
+    print(g);
+  g--;
+  }
+  
+  
+print("----------------------");
+}
 ```
