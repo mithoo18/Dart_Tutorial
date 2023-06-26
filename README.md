@@ -822,7 +822,41 @@ class Dog extends Animal{
   }
 }
 ```
+# Abstract Class
 
+```
+void main(){
+  
+  var rectangle = Rectangle();
+  rectangle.draw();
+  
+  var circle = Circle();
+  circle.draw();
+}
+
+abstract class Shape{
+  int x = 0;
+  int y = 0;
+  
+  void draw();
+  
+  void myNormalFunction(){
+    
+  }
+}
+
+class Rectangle extends Shape{
+  void draw(){
+    print("Drawing Rectangle.........");
+  }
+}
+
+class Circle extends Shape{
+  void draw(){
+    print("Drawing Circle............");
+  }
+}
+```
 
 
 
