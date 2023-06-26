@@ -681,3 +681,27 @@ class Student {
 
 ```
 
+# Getter and Setter
+
+
+```
+void main(){
+  
+  var student = Student();
+  student.name = "Devanshu";
+  print(student.name);
+  
+  student.percentage = 439.0;
+  print(student.percentage);
+}
+
+class Student{
+  String name = "";
+  double _percent = 0.1;
+  
+  void set percentage(double marksSecured) => _percent = (marksSecured/500) * 100;
+
+  double get percentage => _percent;
+}
+
+```
