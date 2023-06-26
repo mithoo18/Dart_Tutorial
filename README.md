@@ -514,3 +514,75 @@ int findVolume(int length, {int breadth = 2, int height = 20}) {
 	print("Volume is ${length * breadth * height}");
 }
 ```
+
+# Exception Handelling
+
+```
+void main(){
+  
+  print("CASE 1");
+  
+  try{
+		int result = 12 ~/ 0;
+    print("The Result is $result");
+  } on IntegerDivisionByZeroException {
+    print("Cannot divide by Zero");
+  }
+  print("");
+  print("CASE 2");
+  
+  try{
+    int result = 12 ~/ 0;
+    print("The Result is $result");        
+  }
+  catch(e,s){
+     print("The Exception Thrown $e");   
+     print("Stack Track \n $s");
+  }
+  
+  print("");
+  print("CASE 4");
+  
+  try{
+    int result  = 12 ~/ 3;
+    print("The Result is $result");
+  } catch(e){
+    print("The Exception Thrown is $e");
+  }
+  finally{
+    print("This is finnaly clause is always executed");
+  }
+  
+  print("");
+  print("Case 5");
+  
+  try{
+    depositMoney(-200);
+  }catch(e){
+    print(e);    
+  }
+  finally{
+    
+  }
+  
+}
+
+class DepositException implements Exception{
+  String errorMessage(){
+    return "You Cannot Enter Amount Less Than 0";
+  }
+  
+}
+
+void depositMoney(int amount){
+  if(amount < 0){
+    throw new DepositException();
+  }
+  
+}
+```
+
+
+
+
+
