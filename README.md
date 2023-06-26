@@ -387,3 +387,39 @@ void main() {
 	}
 }
 ```
+
+# Function Demo
+
+```
+void main(){
+  findPerimeter(4,2);
+
+  int rectArea = getArea(10,4);
+
+  print("I am Rectangle");
+  hello(6);
+}
+
+void findPerimeter(int length,int breadth){
+  
+  int perimeter = 2*(length+breadth);
+  print("The Area is $perimeter");
+
+  print("--------------------");
+}
+
+
+int getArea(int length,int breadth){
+ int area = length * breadth;
+  return area;
+}
+
+void hello(int times){
+  for(int v =0;v<=times;v++){
+    print("Hello Times $times");
+  }  
+  print("--------------------");
+}
+```
+
+
