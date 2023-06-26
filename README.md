@@ -337,3 +337,32 @@ print("---------------------");
   }while(c==10);
 }
 ```
+
+# Break Keyword
+
+```
+void main(){
+  OuterLoop : for(int i =1;i <= 3;i++){
+    InnerLoop: for(int j =1;j<=3;j++){
+      print("$i $j");
+      
+      if(i == 2 && j == 2){
+        break OuterLoop;
+      }
+    }
+  }
+  
+  print("--------------------");
+  
+  Out : for(int p =2;p<10;p++){
+    
+    In : for(int g =0;g<10;g++){
+      
+      print("G value is : $g and P value is $p");
+      if(p==g){
+        break Out;
+      }
+    }
+  }
+}
+```
