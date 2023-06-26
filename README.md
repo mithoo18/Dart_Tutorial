@@ -780,6 +780,48 @@ class Dog extends Animal {
   
 }
 ```
+# Inheritance with Constructor
+
+```
+void main(){
+  var dog1 = Dog("Lab","Blac");
+  print("");
+  
+  var dog2 = Dog("Pug","Brown");
+  print("");
+  
+  var dog3 = Dog.myNamedConstructor("Get","Set");
+}
+
+class Animal{
+  String color = "";
+  
+  Animal(String color){
+    this.color = color;
+    print("Animal Class Constructor");
+  }
+  
+  Animal.myAnimalNamedConstrctor(String color){
+    print("Animal Class Named Constructor");
+  }
+  
+}
+
+class Dog extends Animal{
+  
+  String breed = "";
+  
+  Dog(String breed,String color) : super(color){
+    this.breed = breed;
+    print("Dog class Named Constructor");
+  }
+  
+  Dog.myNamedConstructor(String breed,String color) : super.myAnimalNamedConstrctor(color){
+		this.breed = breed;
+    print("Dog class Named Constructor");
+  }
+}
+```
 
 
 
