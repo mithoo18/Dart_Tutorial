@@ -903,8 +903,56 @@ class Television implements Remote, AnotherClass {
 	}
 }
 
-```
+# Static Method
 
+```
+void main(){
+  
+  var circle1 = Circle();
+  var circle2 = Circle();
+  
+  
+  Circle.pi;
+  Circle.pi;
+  
+  Circle.calculateArea();
+  
+  Circle.linecode();
+  
+  circle1.myNormalFunction();
+  
+  Circle.linecode();
+  
+  circle2.myNormalFunction();
+  
+  Circle.linecode();
+}
+
+class Circle {
+  
+  static const double pi = 3.14;
+  static int maxRadius = 5;
+  
+  String color = "";
+  
+  static void calculateArea(){
+    print("Some Code To Calculate Area of Circle");
+  }
+
+  void myNormalFunction(){
+    calculateArea();
+    this.color = "Blue";
+    print(pi);
+    print(maxRadius);
+  }
+  
+  
+  static void linecode(){
+    print("-------------------------------------");
+  }
+  
+}
+```
 
 
 
