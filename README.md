@@ -1,4 +1,24 @@
+```
 # Dart_Tutorial
+
+# Functional Programming in Dart
+
+    # Lambda Expression
+    # Higher-Order Functions
+    # Lexical Closures
+
+# Dart Collections
+
+    # Arrays or List
+        # Fixed Length List
+        # Growable List
+    # Set and HashSet
+    # Map and HashMap
+
+# Callable Classes
+
+
+```
 
 # Hello World
 
