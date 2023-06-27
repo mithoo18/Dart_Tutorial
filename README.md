@@ -1020,4 +1020,28 @@ Function taskToPerform(){
 }
 ```
 
+# Callable Function
+
+```
+void main(){
+  
+  var personOne = Person();
+  var msg = personOne(24,23);
+  print(msg);
+  
+  var add = personOne(10,129);
+  print(add);
+}
+
+class Person{
+  //String call(int age,String name){
+  //  return "The name of the person is $name and age is $age";
+  // }
+  
+  int call(int a,int b){
+    return a+b;
+  }
+}
+```
+
 
