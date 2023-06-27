@@ -955,6 +955,42 @@ class Circle {
 }
 ```
 
+# Lambda 
 
+```
+void main(){
+  
+  Function addTwoNumbers = (int a,int b){
+    var sum = a+b;
+    print(sum);
+  };
+  
+  
+  var multiplyByFour = (int number){
+    return number * 4;
+  };
+  
+  
+  Function addNumbers = (int a,int b) => print(a+b);
+  
+ 
+  Function addline = (String a) => print("________");
+  
+  var multiplyFour = (int number) => number*4;
+  
+  
+  addTwoNumbers(2,5);
+  addline("_________");
+  print(multiplyByFour(5));
+  addline("_________");
+  addTwoNumbers(3,7);
+  addline("_________");
+  print(multiplyFour(10));  
+ 
+}
 
-
+void addMyNumbers(int a,int b){
+  var sum = a+b;
+  print(sum);
+}
+```
