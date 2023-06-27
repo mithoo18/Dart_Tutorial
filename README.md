@@ -902,6 +902,7 @@ class Television implements Remote, AnotherClass {
 		print("Some code");
 	}
 }
+```
 
 # Static Method
 
